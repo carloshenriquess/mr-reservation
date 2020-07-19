@@ -1,2 +1,3 @@
-# React Template
-Template project for React
+# Table Reservation
+
+Table reservation web app
