@@ -1,6 +1,6 @@
 import React from 'react';
 import kaori from './assets/kaori.gif';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
