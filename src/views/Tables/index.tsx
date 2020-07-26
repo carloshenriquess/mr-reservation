@@ -4,7 +4,7 @@ import './styles.scss';
 import Table from './Table';
 import { tables } from '../../api.json';
 
-export default function Tables() {
+const Tables = () => {
   return (
     <div className="l-tables">
       {tables.map((table, index) =>
@@ -19,3 +19,5 @@ export default function Tables() {
     </div>
   )
 }
+
+export default Tables;

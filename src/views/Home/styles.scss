@@ -1,0 +1,39 @@
+.l-home {
+  &__title {
+    padding-top: 80px;
+  }
+  &__img {
+    margin-top: 128px;
+  }
+  &__btn {
+    margin-top: 94px;
+  }
+}
+.c-home {
+  &__title {
+    text-align: center;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 500;
+  }
+  &__img {
+    display: block;
+    max-width: 195px;
+    border-radius: 10%;
+    transform: rotate(-6deg);
+    margin: 0 auto;
+    box-shadow: 0 0 55px 0px #dd9c4c;
+  }
+  &__btn {
+    outline: none;
+    user-select: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #fb8c1a;
+    color: #ffffff;
+  }
+}
