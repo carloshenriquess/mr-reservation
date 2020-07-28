@@ -1,39 +1,28 @@
 .l-home {
-  &__title {
-    padding-top: 80px;
-  }
-  &__img {
-    margin-top: 128px;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   &__btn {
-    margin-top: 94px;
+    margin-top: 48px;
   }
 }
 .c-home {
-  &__title {
-    text-align: center;
-    font-size: 42px;
-    line-height: 55px;
-    font-weight: 500;
-  }
   &__img {
-    display: block;
-    max-width: 195px;
-    border-radius: 10%;
-    transform: rotate(-6deg);
-    margin: 0 auto;
-    box-shadow: 0 0 55px 0px #dd9c4c;
+    max-width: 440px;
   }
   &__btn {
     outline: none;
+    text-decoration: none;
     user-select: none;
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    padding: 20px 25px;
+    padding: 15px 25px;
     border-radius: 5px;
     font-weight: 500;
-    background-color: #fb8c1a;
+    background-color: #102b88;
     color: #ffffff;
   }
 }

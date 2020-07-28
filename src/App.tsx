@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.scss';
 
-import Home from './views/Home';
-// import Tables from './views/Tables';
+import Routes from './routes';
 
 function App() {
   return (
-    <Home />
+    <Routes />
   );
 }
 
