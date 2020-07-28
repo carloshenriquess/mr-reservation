@@ -1,0 +1,28 @@
+.c-table {
+  display: flex;
+  flex-direction: column;
+  // height: 280px;
+  width: 200px;
+  padding: 24px;
+  background-color: var(--bg-01);
+  cursor: pointer;
+
+  &__title {
+    align-self: flex-start;
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--medium);
+  }
+  &__party-size-title {
+    margin-top: 8px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--hight);
+  }
+  &__party-size {
+    color: var(--p200);
+  }
+}

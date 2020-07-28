@@ -1,21 +1,29 @@
 import React from 'react';
 import './styles.scss';
 
-import Table from './Table';
+import TableCard from './TableCard';
 import { tables } from '../../api.json';
+import { Table } from '../../models/table';
+
+const click = (table: Table) => {
+  console.log('Click:', table)
+};
 
 const Tables = () => {
   return (
     <div className="l-tables">
-      {tables.map((table, index) =>
-        <div className="l-tables__table">
-          <Table
-            id={table.id}
-            capacity={table.capacity}
-            key={index}
-          />
-        </div>
-      )}
+      {
+        tables
+          .sort((a, b) => a.capacity - b.capacity)
+          .map((table, index) => (
+            <div className="l-tables__table" key={index}>
+              <TableCard
+                table={table}
+                click={click}
+              />
+            </div>
+          ))
+      }
     </div>
   )
 }

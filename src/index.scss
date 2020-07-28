@@ -1,5 +1,14 @@
 :root {
-  background-color: #0e0e10;
+  --bg: #121212;
+  --bg-01: #1e1e1e;
+
+  --p: #66b6f1;
+  --p200: #91caf6;
+
+  --hight: rgba(255, 255, 255, 0.87);
+  --medium: rgba(255, 255, 255, 0.6);
+
+  background-color: var(--bg);
 }
 body {
   margin: 0;
@@ -7,7 +16,8 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0e0e10;
-  color: #ffffff;
+
   min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--hight);
 }
